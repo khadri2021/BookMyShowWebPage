@@ -14,7 +14,9 @@ public class BookMyShowServlet extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		System.out.println("Enterd into BookMyShowServlet_Service");
 
+		
 		PrintWriter pw = response.getWriter();
 
 		
